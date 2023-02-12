@@ -12,6 +12,9 @@
         android:theme="@style/Theme.Studyenglishwords"
         tools:targetApi="31">
         <activity
+            android:name=".WordEditActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

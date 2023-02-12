@@ -16,14 +16,25 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
     <Button
-        android:id="@+id/test_button"
+        android:id="@+id/edit_word_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="onClickExitButton"
-        android:text="@string/test_button"
+        android:onClick="onClickEditWordButton"
+        android:text="@string/edit_word"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/exit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickExitButton"
+        android:text="@string/exit_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_word_button" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

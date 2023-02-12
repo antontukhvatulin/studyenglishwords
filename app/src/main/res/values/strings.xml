@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">studyenglishwords</string>
-    <string name="test_button">Exit</string>
+    <string name="exit_button">Exit</string>
     <string name="my_test_text">My test text</string>
+    <string name="edit_word">Edit word</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="ok_button">OK</string>
+    <string name="edit_text_hint">text</string>
 </resources>
