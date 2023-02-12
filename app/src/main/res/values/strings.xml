@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">studyenglishwords</string>
+    <string name="test_button">Exit</string>
+    <string name="my_test_text">My test text</string>
 </resources>
