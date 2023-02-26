@@ -1,8 +1,9 @@
-package ru.ajkon.studyenglishwords
+package ru.ajkon.studyenglishwords.view
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import androidx.appcompat.app.AppCompatActivity
+import ru.ajkon.studyenglishwords.R
 
 class WordEditActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -11,9 +12,11 @@ class WordEditActivity : AppCompatActivity() {
     }
 
     fun onClickCloseButton(view: View) {
-        this.finish()
+        finish()
     }
 
-    fun onClickOkButton(view: View) {}
+    fun onClickOkButton(view: View) {
+        finish()
+    }
 
 }

@@ -12,7 +12,7 @@
         android:theme="@style/Theme.Studyenglishwords"
         tools:targetApi="31">
         <activity
-            android:name=".WordEditActivity"
+            android:name=".view.WordEditActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

@@ -1,26 +1,25 @@
 package ru.ajkon.studyenglishwords
 
-import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.ActionMode
 import android.view.View
-import kotlin.system.exitProcess
+import androidx.appcompat.app.AppCompatActivity
+import ru.ajkon.studyenglishwords.view.ViewControl
 
 class MainActivity : AppCompatActivity() {
+    private val vc: ViewControl = ViewControl(this)
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         setContentView(R.layout.activity_main)
     }
 
     fun onClickEditWordButton(view: View) {
-        val intent = Intent(this, WordEditActivity::class.java)
-        startActivity(intent)
+        vc.showEditWord()
     }
 
     fun onClickExitButton(view: View) {
-        finish()
-        exitProcess(0)
+        vc.exit()
     }
 
 }
